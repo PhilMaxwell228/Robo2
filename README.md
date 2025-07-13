@@ -263,6 +263,8 @@ if __name__ == "__main__":
 # Перешли в папку проекта
 cd путь к проекту
 
+
+
 # Инициализировали Git
 git init
 
@@ -280,5 +282,30 @@ git commit -m "Улучшил интерфейс управления"
 
 # Проверяем историю:
 git log
+
+Создание ветки на гит хабе
+git push -u origin main или git push -u origin master
+
+git status
+
+git log
+
+Создание новой ветки:
+git checkout -b main     # создаём и переходим на ветку main
+git add .
+git commit -m "Начальный коммит"
+git push -u origin main
+
+Если репозиторий не пустой и есть какие то файлы:
+git pull origin main --allow-unrelated-histories
+git push -u origin main
+
+Если ветка называется мастер, то использовать это
+git push -u origin master
+
+Если переименовать ветку:
+git branch -M main
+git push -u origin main
+
 
 
