@@ -1,3 +1,47 @@
+python install - https://www.python.org/downloads/
+
+vc code - https://code.visualstudio.com/
+
+расширение питона
+
+новый файл main.py
+
+
+PS:
+Get-ExecutionPolicy
+
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+Y
+
+python -m venv .venv   # Или python3 -m venv .venv - создание виртуального окружения
+
+.venv\Scripts\Activate.ps1 - ps
+.\venv\Scripts\activate.bat - cmd
+
+пакеты:
+
+pip install PyQt5
+pip show PyQt5
+
+мб это
+pip install PyQt5 opencv-python numpy
+если несколько версий питона
+python3 -m pip install PyQt5 opencv-python numpy
+
+проверка версии питона
+python --version
+pip --version
+
+ мб в дебагинг меню потыкать состандартным интерпритатором
+
+
+
+
+
+
+
+
 from PyQt5.QtWidgets import *
 from PyQt5.QtCore import *
 from PyQt5.QtGui import *
