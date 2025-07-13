@@ -325,5 +325,11 @@ git branch -M main
 # 5. Пушим в первый раз
 git push -u origin main
 
+Скачать все изменениея с гит 
+git pull --allow-unrelated-histories origin main
+
+Загрузить свои файлы обратно
+git push -u origin main
+
 
 
