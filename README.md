@@ -259,6 +259,8 @@ if __name__ == "__main__":
     window.show()
     sys.exit(app.exec_())
 ```
+https://git-scm.com/downloads?spm=a2ty_o01.29997173.0.0.44dec921ZjWNKt
+
 ```
 # Перешли в папку проекта
 cd путь к проекту
