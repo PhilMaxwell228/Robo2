@@ -310,4 +310,20 @@ git branch -M main
 git push -u origin main
 
 
+# 1. Добавляем файлы
+git add .
+
+# 2. Делаем коммит
+git commit -m "Первая версия"
+
+# 3. Указываем удалённый репозиторий
+git remote add origin https://github.com/PhilMaxwell228/Robo2.git 
+
+# 4. Переименовываем ветку в main (если хочешь)
+git branch -M main
+
+# 5. Пушим в первый раз
+git push -u origin main
+
+
 
